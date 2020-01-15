@@ -4,11 +4,31 @@ Week promoted by [Rocketseat](https://rocketseat.com.br/) for understanding Full
 
 The developed application it will be: Waze/Google Maps for developers
 
-It will help to understand things like: how to work with geolocatization, non-relational database...
+It will help to understand things like: how to work with geolocatization, non-relational database and, of course, about the FullStack in JavaScript
 
-# Installation
+## Installation
 
-## Requirements
+### Requirements
+
 * NodeJS (12.13.1)
 * npm (6.13.6)
 * yarn (1.17.3)
+
+## Responsability of each stack
+
+### Back-End
+
+Built on NodeJS, it will have a responsibility to take care of:
+
+* Business Rules
+* DB Connection
+* Email sending
+* Web Services communication
+* User authentication
+* Security and Cryptography
+
+This is one API REST
+
+Also, we will use the Github API to get information (such as avatar, bio) from devs
+
+We're using `express` package, MongoDB as Non-relational DB

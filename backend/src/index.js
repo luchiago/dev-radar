@@ -7,6 +7,7 @@ const app = express();
 mongoose.connect('mongodb+srv://lucas_omnistack:omnistack@cluster0-m824n.mongodb.net/week10?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useCreateIndex: true,
 });
 
 app.use(express.json());
