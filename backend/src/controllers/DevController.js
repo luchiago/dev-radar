@@ -37,7 +37,31 @@ module.exports = {
         location,
       })
     }
-    
+
     return response.json(dev);
-  }
+  },
+
+  async update(request, response) {
+
+    const { github_username } = request.query;
+    const newAttributes = request.body;
+
+    let dev = await Dev.findOneAndUpdate({ github_username }, { $set: newAttributes });
+
+    const message = dev ? dev : "Dev Not Found";
+
+    return response.json({ message });
+  },
+
+  async destroy(request, response) {
+    
+    const { github_username } = request.query;
+
+    let dev = await Dev.findOneAndDelete({ github_username });
+
+    const message = dev ? "Delete successful" : "Dev Not Found";
+
+    return response.json({ message, dev });
+
+  },
 }

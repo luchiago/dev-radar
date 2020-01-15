@@ -8,6 +8,7 @@ mongoose.connect('mongodb+srv://lucas_omnistack:omnistack@cluster0-m824n.mongodb
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
+  useFindAndModify: false,
 });
 
 app.use(express.json());
