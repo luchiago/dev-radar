@@ -32,3 +32,9 @@ This is one API REST
 Also, we will use the Github API to get information (such as avatar, bio) from devs
 
 We're using `express` package, MongoDB as Non-relational DB
+
+### Front-End
+
+The SPA (Single-Page Application) approach will be applied here
+
+The Front-End project is using ReactJS
