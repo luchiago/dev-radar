@@ -48,7 +48,7 @@ module.exports = {
 
     let dev = await Dev.findOneAndUpdate({ github_username }, { $set: newAttributes });
 
-    const message = dev ? dev : "Dev Not Found";
+    const message = dev ? "Ok" : "Dev Not Found";
 
     return response.json({ message });
   },
