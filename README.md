@@ -1,10 +1,10 @@
-# Omnistack Week 10.0
+# Dev Radar - Omnistack Week 10.0
 
 Week promoted by [Rocketseat](https://rocketseat.com.br/) for understanding FullStack in JavaScript (NodeJS, ReactJS and React Native) by doing an application during the week
 
-The developed application it will be: Waze/Google Maps for developers
+The developed application will be: Waze/Google Maps for developers
 
-It will help to understand things like: how to work with geolocatization, non-relational database and, of course, about the FullStack in JavaScript
+It will help to understand things like how to work with geolocalization, non-relational database and, of course, about the FullStack in JavaScript
 
 ## Installation
 
@@ -42,6 +42,6 @@ The Front-End project is using ReactJS
 
 ### Mobile
 
-We are going to use the React Native approach to implements mobile project. How this works? All code are made in JavaScript and the device understand this JS code.
+We are going to use the React Native approach to implements the mobile project. How does this work? All code is made in JavaScript and the device understands this JS code.
 
-We also are going to use Expo because makes more easly to test our application without having an MacOS or SDK from Android installed
+We also are going to use Expo because makes easier to test our application without having a macOS or SDK from Android installed
