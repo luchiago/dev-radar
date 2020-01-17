@@ -13,6 +13,7 @@ It will help to understand things like: how to work with geolocatization, non-re
 * NodeJS (12.13.1)
 * npm (6.13.6)
 * yarn (1.17.3)
+* React, React Native and Expo
 
 ## Responsability of each stack
 
@@ -38,3 +39,9 @@ We're using `express` package, MongoDB as Non-relational DB
 The SPA (Single-Page Application) approach will be applied here
 
 The Front-End project is using ReactJS
+
+### Mobile
+
+We are going to use the React Native approach to implements mobile project. How this works? All code are made in JavaScript and the device understand this JS code.
+
+We also are going to use Expo because makes more easly to test our application without having an MacOS or SDK from Android installed
