@@ -1,6 +1,6 @@
 # Dev Radar - Omnistack Week 10.0 :rocket:
 
-Week promoted by [Rocketseat](https://rocketseat.com.br/) for understanding FullStack in JavaScript (NodeJS, ReactJS and React Native) by doing an application during the week
+Week promoted by [Rocketseat](https://rocketseat.com.br/) and [Diego Fernandes](https://github.com/diego3g) for understanding FullStack in JavaScript (NodeJS, ReactJS and React Native) by doing an application during the week
 
 The developed application will be: Waze/Google Maps for developers
 
