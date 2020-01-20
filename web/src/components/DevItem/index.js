@@ -1,7 +1,13 @@
 import React from 'react';
 import './styles.css';
+import DeleteIcon from '@material-ui/icons/Delete';
 
-function DevItem({ dev }) {
+function DevItem({ dev, onClick }) {
+
+  async function handleClick(dev){
+    await onClick(dev);
+  }
+
   return (
     <li className="dev-item">
       <header>
@@ -12,7 +18,12 @@ function DevItem({ dev }) {
         </div>
       </header>
       <p>{dev.bio}</p>
-      <a href={`https://github.com/${dev.github_username}`}>Acessar perfil no github</a>
+      <div className="links">
+        <a href={`https://github.com/${dev.github_username}`}>Acessar perfil no github</a>
+        <button className="user-delete" onClick={handleClick}>
+          <DeleteIcon fontSize="small"/>
+        </button>
+      </div>
     </li>
   );
 }
