@@ -63,9 +63,9 @@ module.exports = {
 
   async destroy(request, response) {
     
-    const { github_username } = request.query;
+    const { _id } = request.query;
 
-    let dev = await Dev.findOneAndDelete({ github_username });
+    let dev = await Dev.findOneAndDelete({ _id });
 
     const message = dev ? "Delete successful" : "Dev Not Found";
 

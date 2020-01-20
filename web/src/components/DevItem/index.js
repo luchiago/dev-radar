@@ -4,8 +4,10 @@ import DeleteIcon from '@material-ui/icons/Delete';
 
 function DevItem({ dev, onClick }) {
 
-  async function handleClick(dev){
-    await onClick(dev);
+  async function handleClick(){
+
+    await onClick(dev._id);
+
   }
 
   return (

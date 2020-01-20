@@ -30,9 +30,9 @@ function App() {
     setDevs([...devs, response.data]);
   }
 
-  async function handleDeleteDev(dev){
+  async function handleDeleteDev(_id){
 
-    await api.delete('/devs', {params: dev._id});
+    await api.delete('/devs', {params: { _id }});
 
     setDevs([...devs]);
   }
